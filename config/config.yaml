@@ -1,0 +1,7 @@
+env: dev
+dev:
+  REQRES_BASE: "https://reqres.in/api"
+  JSONPLACEHOLDER_BASE: "https://jsonplaceholder.typicode.com"
+  HTTPBIN_BASE: "https://httpbin.org"
+  GOREST_BASE: "https://gorest.co.in/public/v2"
+  GOREST_TOKEN: "ec05fdd0a6b31407be7de9c884e0ffe6b6fcc26fb1bc1e026c37c2c6745e47e5"
