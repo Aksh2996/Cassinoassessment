@@ -1,13 +1,7 @@
-# Core testing
 pytest==7.4.2
 requests==2.31.0
-
-# Optional: For parallel test execution
 pytest-xdist
-
-# Optional: For enhanced reporting
 pytest-html==3.2.0
 pytest-metadata
-
-# Optional: For JSON schema validation
 jsonschema==4.21.0
+PyYAML==6.0
