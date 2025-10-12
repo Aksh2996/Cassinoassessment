@@ -1020,3 +1020,400 @@ der': 'male', 'status': 'active'}
   "url": "https://httpbin.org/delay/1"
 }
 
+2025-10-12 18:04:21,664 - INFO - POST https://reqres.in/api/login | payload={'email': 'eve.holt@reqres.in', 'password': 'cityslicka'}
+2025-10-12 18:04:22,837 - INFO - RESP 401 | {"error":"Missing API key"}
+2025-10-12 18:04:22,847 - INFO - POST https://jsonplaceholder.typicode.com/posts | payload={'title': 'Test Post', 'body': 'Content', 'userId': 1}
+2025-10-12 18:04:23,725 - INFO - RESP 201 | {
+  "title": "Test Post",
+  "body": "Content",
+  "userId": 1,
+  "id": 101
+}
+2025-10-12 18:04:23,734 - INFO - GET https://jsonplaceholder.typicode.com/posts/1
+2025-10-12 18:04:23,937 - INFO - RESP 200 | {
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+2025-10-12 18:04:23,949 - INFO - GET https://jsonplaceholder.typicode.com/posts/99999
+2025-10-12 18:04:24,134 - INFO - RESP 404 | {}
+2025-10-12 18:04:24,140 - INFO - DELETE https://httpbin.org/status/405
+2025-10-12 18:04:26,843 - INFO - RESP 405 | 
+2025-10-12 18:04:26,848 - INFO - POST https://gorest.co.in/public/v2/users | payload={'name': 'Temp User', 'email': 'user_hdsxej@example.com', 'gender': 'male', 'status': 'active'}
+2025-10-12 18:04:27,219 - INFO - RESP 201 | {"id":8182775,"name":"Temp User","email":"user_hdsxej@example.com","gender":"male","status":"active"}
+2025-10-12 18:04:27,221 - INFO - DELETE https://gorest.co.in/public/v2/users/8182775
+2025-10-12 18:04:27,565 - INFO - RESP 204 | 
+2025-10-12 18:04:27,570 - INFO - POST https://gorest.co.in/public/v2/users | payload={'name': 'X', 'email': 'bad-email', 'gender': 'male', 'status': 'active'}
+2025-10-12 18:04:27,937 - INFO - RESP 422 | [{"field":"email","message":"is invalid"}]
+2025-10-12 18:04:27,944 - INFO - GET https://jsonplaceholder.typicode.com/posts/1
+2025-10-12 18:04:28,139 - INFO - RESP 200 | {
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+2025-10-12 18:04:28,147 - INFO - GET https://httpbin.org/delay/1 | params=None
+2025-10-12 18:04:28,148 - INFO - GET https://httpbin.org/delay/1 | params=None
+2025-10-12 18:04:28,149 - INFO - GET https://httpbin.org/delay/1 | params=None
+2025-10-12 18:04:28,151 - INFO - GET https://httpbin.org/delay/1 | params=None
+2025-10-12 18:04:28,180 - INFO - GET https://httpbin.org/delay/1 | params=None
+2025-10-12 18:04:28,183 - INFO - GET https://httpbin.org/delay/1 | params=None
+2025-10-12 18:04:28,187 - INFO - GET https://httpbin.org/delay/1 | params=None
+2025-10-12 18:04:28,188 - INFO - GET https://httpbin.org/delay/1 | params=None
+2025-10-12 18:04:28,190 - INFO - GET https://httpbin.org/delay/1 | params=None
+2025-10-12 18:04:28,192 - INFO - GET https://httpbin.org/delay/1 | params=None
+2025-10-12 18:04:29,483 - INFO - RESP 502 | <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+</body>
+</html>
+
+2025-10-12 18:04:30,507 - INFO - RESP 200 | {
+  "args": {}, 
+  "data": "", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Host": "httpbin.org", 
+    "User-Agent": "python-requests/2.31.0", 
+    "X-Amzn-Trace-Id": "Root=1-68eba054-42db825b400081e65ab6d174"
+  }, 
+  "origin": "223.178.82.13", 
+  "url": "https://httpbin.org/delay/1"
+}
+
+2025-10-12 18:04:30,530 - INFO - RESP 200 | {
+  "args": {}, 
+  "data": "", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Host": "httpbin.org", 
+    "User-Agent": "python-requests/2.31.0", 
+    "X-Amzn-Trace-Id": "Root=1-68eba054-69ae5a6707d7893c7225bd09"
+  }, 
+  "origin": "223.178.82.13", 
+  "url": "https://httpbin.org/delay/1"
+}
+
+2025-10-12 18:04:30,759 - INFO - RESP 200 | {
+  "args": {}, 
+  "data": "", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Host": "httpbin.org", 
+    "User-Agent": "python-requests/2.31.0", 
+    "X-Amzn-Trace-Id": "Root=1-68eba054-3bec036e2dfe51040a589b55"
+  }, 
+  "origin": "223.178.82.13", 
+  "url": "https://httpbin.org/delay/1"
+}
+
+2025-10-12 18:04:31,121 - INFO - RESP 200 | {
+  "args": {}, 
+  "data": "", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Host": "httpbin.org", 
+    "User-Agent": "python-requests/2.31.0", 
+    "X-Amzn-Trace-Id": "Root=1-68eba054-685c66cb567569be6ef36082"
+  }, 
+  "origin": "223.178.82.13", 
+  "url": "https://httpbin.org/delay/1"
+}
+
+2025-10-12 18:04:31,834 - INFO - RESP 200 | {
+  "args": {}, 
+  "data": "", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Host": "httpbin.org", 
+    "User-Agent": "python-requests/2.31.0", 
+    "X-Amzn-Trace-Id": "Root=1-68eba054-63d024814097d8632d71be0d"
+  }, 
+  "origin": "223.178.82.13", 
+  "url": "https://httpbin.org/delay/1"
+}
+
+2025-10-12 18:04:31,834 - INFO - RESP 200 | {
+  "args": {}, 
+  "data": "", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Host": "httpbin.org", 
+    "User-Agent": "python-requests/2.31.0", 
+    "X-Amzn-Trace-Id": "Root=1-68eba054-0abeb7b02a82c80331368aa1"
+  }, 
+  "origin": "223.178.82.13", 
+  "url": "https://httpbin.org/delay/1"
+}
+
+2025-10-12 18:04:31,840 - INFO - RESP 200 | {
+  "args": {}, 
+  "data": "", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Host": "httpbin.org", 
+    "User-Agent": "python-requests/2.31.0", 
+    "X-Amzn-Trace-Id": "Root=1-68eba054-0c53a65c6678e7146cf2628e"
+  }, 
+  "origin": "223.178.82.13", 
+  "url": "https://httpbin.org/delay/1"
+}
+
+2025-10-12 18:04:33,013 - INFO - RESP 200 | {
+  "args": {}, 
+  "data": "", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Host": "httpbin.org", 
+    "User-Agent": "python-requests/2.31.0", 
+    "X-Amzn-Trace-Id": "Root=1-68eba054-27bfc07e64857ed0520e6b25"
+  }, 
+  "origin": "223.178.82.13", 
+  "url": "https://httpbin.org/delay/1"
+}
+
+2025-10-12 18:04:33,933 - INFO - RESP 200 | {
+  "args": {}, 
+  "data": "", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Host": "httpbin.org", 
+    "User-Agent": "python-requests/2.31.0", 
+    "X-Amzn-Trace-Id": "Root=1-68eba054-5da11f8335b653e5028a1000"
+  }, 
+  "origin": "223.178.82.13", 
+  "url": "https://httpbin.org/delay/1"
+}
+
+2025-10-12 18:16:14,293 - INFO - POST https://reqres.in/api/login | payload={'email': 'eve.holt@reqres.in', 'password': 'cityslicka'}
+2025-10-12 18:16:14,944 - INFO - RESP 401 | {"error":"Missing API key"}
+2025-10-12 18:16:14,964 - INFO - POST https://jsonplaceholder.typicode.com/posts | payload={'title': 'Test Post', 'body': 'Content', 'userId': 1}
+2025-10-12 18:16:15,863 - INFO - RESP 201 | {
+  "title": "Test Post",
+  "body": "Content",
+  "userId": 1,
+  "id": 101
+}
+2025-10-12 18:16:15,869 - INFO - GET https://jsonplaceholder.typicode.com/posts/1
+2025-10-12 18:16:16,075 - INFO - RESP 200 | {
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+2025-10-12 18:16:16,075 - INFO - GET https://jsonplaceholder.typicode.com/posts/99999
+2025-10-12 18:16:16,277 - INFO - RESP 404 | {}
+2025-10-12 18:16:16,280 - INFO - DELETE https://httpbin.org/status/405
+2025-10-12 18:16:18,440 - INFO - RESP 405 | 
+2025-10-12 18:16:18,440 - INFO - POST https://gorest.co.in/public/v2/users | payload={'name': 'Temp User', 'email': 'user_kwgqtd@example.com', 'gender': 'male', 'status': 'active'}
+2025-10-12 18:16:18,978 - INFO - RESP 201 | {"id":8182785,"name":"Temp User","email":"user_kwgqtd@example.com","gender":"male","status":"active"}
+2025-10-12 18:16:18,980 - INFO - DELETE https://gorest.co.in/public/v2/users/8182785
+2025-10-12 18:16:19,449 - INFO - RESP 204 | 
+2025-10-12 18:16:19,449 - INFO - POST https://gorest.co.in/public/v2/users | payload={'name': 'X', 'email': 'bad-email', 'gender': 'male', 'status': 'active'}
+2025-10-12 18:16:19,921 - INFO - RESP 422 | [{"field":"email","message":"is invalid"}]
+2025-10-12 18:16:19,929 - INFO - GET https://jsonplaceholder.typicode.com/posts/1
+2025-10-12 18:16:20,126 - INFO - RESP 200 | {
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+2025-10-12 18:16:20,136 - INFO - GET https://httpbin.org/delay/1 | params=None
+2025-10-12 18:16:20,136 - INFO - GET https://httpbin.org/delay/1 | params=None
+2025-10-12 18:16:20,136 - INFO - GET https://httpbin.org/delay/1 | params=None
+2025-10-12 18:16:20,136 - INFO - GET https://httpbin.org/delay/1 | params=None
+2025-10-12 18:16:20,136 - INFO - GET https://httpbin.org/delay/1 | params=None
+2025-10-12 18:16:20,136 - INFO - GET https://httpbin.org/delay/1 | params=None
+2025-10-12 18:16:20,136 - INFO - GET https://httpbin.org/delay/1 | params=None
+2025-10-12 18:16:20,150 - INFO - GET https://httpbin.org/delay/1 | params=None
+2025-10-12 18:16:20,150 - INFO - GET https://httpbin.org/delay/1 | params=None
+2025-10-12 18:16:20,150 - INFO - GET https://httpbin.org/delay/1 | params=None
+2025-10-12 18:16:22,493 - INFO - RESP 200 | {
+  "args": {}, 
+  "data": "", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Host": "httpbin.org", 
+    "User-Agent": "python-requests/2.31.0", 
+    "X-Amzn-Trace-Id": "Root=1-68eba31b-63d8751f509cb93a65b40bc3"
+  }, 
+  "origin": "223.178.82.13", 
+  "url": "https://httpbin.org/delay/1"
+}
+
+2025-10-12 18:16:23,160 - INFO - RESP 200 | {
+  "args": {}, 
+  "data": "", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Host": "httpbin.org", 
+    "User-Agent": "python-requests/2.31.0", 
+    "X-Amzn-Trace-Id": "Root=1-68eba31b-1f844d686426e044285b0c93"
+  }, 
+  "origin": "223.178.82.13", 
+  "url": "https://httpbin.org/delay/1"
+}
+
+2025-10-12 18:16:24,105 - INFO - RESP 200 | {
+  "args": {}, 
+  "data": "", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Host": "httpbin.org", 
+    "User-Agent": "python-requests/2.31.0", 
+    "X-Amzn-Trace-Id": "Root=1-68eba31b-50c4fa4825b158780f37062e"
+  }, 
+  "origin": "223.178.82.13", 
+  "url": "https://httpbin.org/delay/1"
+}
+
+2025-10-12 18:16:24,632 - INFO - RESP 200 | {
+  "args": {}, 
+  "data": "", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Host": "httpbin.org", 
+    "User-Agent": "python-requests/2.31.0", 
+    "X-Amzn-Trace-Id": "Root=1-68eba31b-243ae35f10989ff1583ed902"
+  }, 
+  "origin": "223.178.82.13", 
+  "url": "https://httpbin.org/delay/1"
+}
+
+2025-10-12 18:16:24,632 - INFO - RESP 200 | {
+  "args": {}, 
+  "data": "", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Host": "httpbin.org", 
+    "User-Agent": "python-requests/2.31.0", 
+    "X-Amzn-Trace-Id": "Root=1-68eba31b-6758ea314e6209932ef14dc3"
+  }, 
+  "origin": "223.178.82.13", 
+  "url": "https://httpbin.org/delay/1"
+}
+
+2025-10-12 18:16:25,199 - INFO - RESP 200 | {
+  "args": {}, 
+  "data": "", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Host": "httpbin.org", 
+    "User-Agent": "python-requests/2.31.0", 
+    "X-Amzn-Trace-Id": "Root=1-68eba31b-69a15fb272f7dbac28cb0463"
+  }, 
+  "origin": "223.178.82.13", 
+  "url": "https://httpbin.org/delay/1"
+}
+
+2025-10-12 18:16:25,695 - INFO - RESP 200 | {
+  "args": {}, 
+  "data": "", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Host": "httpbin.org", 
+    "User-Agent": "python-requests/2.31.0", 
+    "X-Amzn-Trace-Id": "Root=1-68eba31b-7ec74a4b446ee166188d5341"
+  }, 
+  "origin": "223.178.82.13", 
+  "url": "https://httpbin.org/delay/1"
+}
+
+2025-10-12 18:16:25,775 - INFO - RESP 200 | {
+  "args": {}, 
+  "data": "", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Host": "httpbin.org", 
+    "User-Agent": "python-requests/2.31.0", 
+    "X-Amzn-Trace-Id": "Root=1-68eba31b-52c013df22dfc6174011fb9e"
+  }, 
+  "origin": "223.178.82.13", 
+  "url": "https://httpbin.org/delay/1"
+}
+
+2025-10-12 18:16:26,425 - INFO - RESP 200 | {
+  "args": {}, 
+  "data": "", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Host": "httpbin.org", 
+    "User-Agent": "python-requests/2.31.0", 
+    "X-Amzn-Trace-Id": "Root=1-68eba31b-08edcbfe0880d3873efa0d17"
+  }, 
+  "origin": "223.178.82.13", 
+  "url": "https://httpbin.org/delay/1"
+}
+
+2025-10-12 18:16:27,585 - INFO - RESP 200 | {
+  "args": {}, 
+  "data": "", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Host": "httpbin.org", 
+    "User-Agent": "python-requests/2.31.0", 
+    "X-Amzn-Trace-Id": "Root=1-68eba31b-2c8463c87fb0e7982e4972d7"
+  }, 
+  "origin": "223.178.82.13", 
+  "url": "https://httpbin.org/delay/1"
+}
+
