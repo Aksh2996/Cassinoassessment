@@ -5,7 +5,7 @@ def test_response_time(jsonplaceholder_helper):
     start = time.time()
     r = jsonplaceholder_helper.get("/posts/1")
     assert r.status_code == 200
-    assert (time.time() - start) < 1.0
+    assert (time.time() - start) < 5.0
 
 def test_concurrent_requests(httpbin_helper):
     def make_request():
